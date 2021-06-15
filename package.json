@@ -1,0 +1,25 @@
+{
+  "name": "postgresql-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js \"",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/pg": "^7.14.11",
+    "concurrently": "^5.3.0",
+    "nodemon": "^1.19.4",
+    "typescript": "^3.9.9"
+  }
+}
